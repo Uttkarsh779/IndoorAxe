@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Security
+*.pem
+*.key
+
+# Uploaded user files (stored on server only)
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Legacy Django app (not deployed - kept for reference only)
+indoor/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3
