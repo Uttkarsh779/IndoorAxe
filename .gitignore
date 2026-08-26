@@ -39,3 +39,10 @@ __pycache__/
 *.pyo
 *.pyd
 db.sqlite3
+
+# Internal planning/documentation MD files
+API_MAPPING.md
+DATABASE_MAPPING.md
+FEATURE_CHECKLIST.md
+MIGRATION_PLAN.md
+TEST_REPORT.md
