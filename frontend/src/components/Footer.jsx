@@ -38,6 +38,17 @@ export default function Footer() {
           ))}
         </nav>
         <p className="text-xs text-gray-400">Indoor Axe Metals Pvt Ltd © {new Date().getFullYear()}</p>
+        <p className="text-xs text-gray-400">
+          Designed &amp; Developed by{' '}
+          <a
+            href="https://moiratech.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+            className="font-medium text-brand hover:underline"
+          >
+            Moira Tech
+          </a>
+        </p>
       </div>
     </footer>
   );
